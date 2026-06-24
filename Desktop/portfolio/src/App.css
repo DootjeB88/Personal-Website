@@ -24,15 +24,27 @@ nav h2 {
   color: #ffffff;
 }
 
-nav a {
-  color: #aaaaaa;
-  text-decoration: none;
-  margin-left: 30px;
-  font-size: 0.95rem;
+.nav-links {
+  display: flex;
+  gap: 30px;
 }
 
-nav a:hover {
+.nav-link {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
   color: #ffffff;
+}
+
+.nav-link.active {
+  color: #f97316;
+  border-bottom: 2px solid #f97316;
 }
 
 section {
@@ -81,24 +93,11 @@ section h1 {
   color: #f97316;
 }
 
-nav a:hover {
-  color: #f97316;
-}
-
-section a {
-  background-color: #f97316;
-  color: #ffffff;
-}
-
-section a:hover {
-  background-color: #ea6c0a;
-}
-
 #about {
   background-color: #1a1a1a;
 }
 
-#about h2, #projects h2 {
+#about h2, #projects h2, #contact h2 {
   font-size: 2rem;
   margin-bottom: 24px;
   color: #f97316;
