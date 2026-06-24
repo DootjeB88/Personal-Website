@@ -147,3 +147,48 @@ section a:hover {
 .project-link:hover {
   text-decoration: underline;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #f97316;
+}
+
+.contact-form button {
+  padding: 14px 28px;
+  background-color: #f97316;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.contact-form button:hover {
+  background-color: #ea6c0a;
+}
+
+.contact-form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #1a1a1a inset;
+  -webkit-text-fill-color: #ffffff;
+}
