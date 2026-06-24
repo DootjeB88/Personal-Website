@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>© 2025 Dominique Bloks</p>
+      <p>© 2026 Dominique Bloks</p>
     </footer>
   );
 }

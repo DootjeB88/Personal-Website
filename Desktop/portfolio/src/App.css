@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 60px;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
 }
 
-.App-link {
-  color: #61dafb;
+nav h2 {
+  font-size: 1.4rem;
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a {
+  color: #aaaaaa;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+section {
+  padding: 100px 60px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+section a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background-color: #ffffff;
+  color: #0f0f0f;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+section a:hover {
+   background-color: #cccccc;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #555555;
+  font-size: 0.85rem;
+  border-top: 1px solid #222;
+}
+
+section h1 {
+  color: #f97316;
+}
+
+nav a:hover {
+  color: #f97316;
+}
+
+section a {
+  background-color: #f97316;
+  color: #ffffff;
+}
+
+section a:hover {
+  background-color: #ea6c0a;
 }
