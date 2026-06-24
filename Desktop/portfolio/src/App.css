@@ -191,3 +191,36 @@ section h1 {
   -webkit-box-shadow: 0 0 0px 1000px #1a1a1a inset;
   -webkit-text-fill-color: #ffffff;
 }
+
+.github-stats {
+  margin-top: 40px;
+}
+
+.github-stats h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.stats-grid {
+  display: flex;
+  gap: 40px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f97316;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #aaaaaa;
+  margin-top: 4px;
+}
