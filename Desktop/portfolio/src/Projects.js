@@ -7,12 +7,12 @@ const projects = [
     live: "https://gaming-dashboard-beta.vercel.app"
   },
   {
-    id: 2,
-    title: "Pet Warning Designer",
-    description: "An interactive tool to create personalized pet warning signs.",
-    github: "https://github.com/DootjeB88/Pet-Warning-Designer",
-    live: null
-  },
+  id: 2,
+  title: "Pet Warning Designer",
+  description: "An interactive tool to create personalized pet warning signs.",
+  github: "https://github.com/DootjeB88/Pet-Warning-Designer",
+  live: "https://pet-warning-designer-5yo3jusjk-dbloks.vercel.app"
+},
   {
     id: 3,
     title: "TaskForge",
