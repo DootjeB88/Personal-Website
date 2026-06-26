@@ -141,10 +141,25 @@ section h1 {
   font-size: 0.9rem;
   background: none;
   padding: 0;
+  border: 1px solid #f97316;
+  padding: 4px 12px;
+  border-radius: 4px;
+  transition: all 0.2s;
 }
 
 .project-link:hover {
-  text-decoration: underline;
+  background-color: #f97316;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project-link.live {
+  background-color: #f97316;
+  color: #ffffff;
+}
+
+.project-link.live:hover {
+  background-color: #ea6c0a;
 }
 
 .contact-form {
