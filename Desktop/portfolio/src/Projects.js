@@ -14,12 +14,12 @@ const projects = [
   live: "https://pet-warning-designer-5yo3jusjk-dbloks.vercel.app"
 },
   {
-    id: 3,
-    title: "TaskForge",
-    description: "A full-stack project management app with Kanban board and task tracking.",
-    github: "https://github.com/DootjeB88/TaskForge",
-    live: null
-  }
+  id: 3,
+  title: "TaskForge",
+  description: "A full-stack project management app with Kanban board and task tracking.",
+  github: "https://github.com/DootjeB88/TaskForge",
+  live: "https://task-forge-amber.vercel.app"
+},
 ];
 
 function Projects() {
